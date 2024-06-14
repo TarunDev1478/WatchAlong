@@ -1,0 +1,114 @@
+.triangle1{
+    position: fixed;
+    z-index: -1;
+    width: 0px;
+    height: 0px;
+    border-bottom: 1200px solid #79efc5;
+    border-right: 1200px solid transparent;
+    top: -125px;
+}
+.triangle2{
+    position: fixed;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 700px solid #2f3e46;
+  border-left: 700px solid transparent;
+  top: 0px;
+  left: 836px;
+}
+.st1{
+    width: 554px;
+  height: 825px;
+  transform: skew(45deg);
+  background: #2f3e46;
+  position: fixed;
+  z-index: -1;
+  top: -25px;
+  left: 513px;
+  box-shadow: 63px 36px 72px 95px #2f3e46;
+
+}
+.st2{
+    width: 158px;
+  height: 825px;
+  transform: skew(45deg);
+  background: #79efc5;
+  position: fixed;
+  z-index: -1;
+  top: -25px;
+  left: 1067px;
+  box-shadow:inset -50px 36px 72px -39px  #2f3e46;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 823px;
+  height: 681px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(150px);
+  -webkit-backdrop-filter: blur(10px);
+  position: relative;
+  left: 374px;
+  border-radius: 30px;
+}
+.function h1{
+    color: white;
+    text-align: center;
+    font-size:6rem;
+    margin-top: -80px;
+}
+.function p{
+    margin-top: 20px;
+    color:white;
+    margin-bottom: 90px;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:600px;
+    height:300px;
+    border-radius: 30px;
+}
+
+.uploading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.room h1{
+    color:#2f3e46;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.room input{
+    color:#2f3e46;
+    height:30px;
+    width:300px;
+    border: none;
+    border: 2px solid #2f3e46;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.room button{
+    width:150px;
+    margin-top: 10px;
+    background-color: #2f3e46;
+    color: white;
+}

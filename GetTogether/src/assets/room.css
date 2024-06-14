@@ -1,0 +1,32 @@
+.main4{
+    background-color: #2f3e46;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+.room-page{
+    position: relative;
+  left: 862px;
+  top: -400px;
+  width: 500px;
+}
+.line{
+    position: fixed;
+    height: 90vh;
+    width: 10px;
+    background-color: #79efc5;
+    top: 45px;
+    z-index: 5;
+    left: 824px;
+    border-radius: 20px;
+}
+.video{
+    position: relative;
+  top: 60px;
+  left: 13px;
+}
+.video h1{
+    width:800px;
+    color:white;
+    text-align: center;
+}
